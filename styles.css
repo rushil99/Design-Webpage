@@ -1,8 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.navbar__container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+@font-face{
+    font-family: Fraunces;
+    src : url('Fraunces_72pt,Soft-Light.ttf');
+}
+ 
  * {
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     font-family: 'Fraunces', sans-serif;
  }
 
  .navbar__container {
@@ -81,4 +95,20 @@
 
 }
 
+/* Potfolio Style */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.portfolio-item-wrapper{
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
