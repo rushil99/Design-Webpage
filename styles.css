@@ -95,6 +95,17 @@ body {
 
 }
 
+/* Heading text formatting */
+.title-text {
+    font-size: 100px;
+    text-align: left;
+    align-self: center;
+
+}
+
+
+
+
 /* Potfolio Style */
 .portfolio-items-wrapper {
     display: grid;
