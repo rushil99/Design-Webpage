@@ -99,11 +99,30 @@ body {
 .title-text {
     font-size: 100px;
     text-align: left;
-    align-self: center;
-
+    text-align: left;
+    line-height: 130%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 1%;
+    color: #162B32;
+    animation: Slide_Up 3s ease-in-out;
 }
 
+@keyframes Slide_Up {
+    0%{
+        transform: translateY(700px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
 
+/* About me Section */
+.Profile-Pic {
+    border-radius: 50%;
+    max-width: 150px;
+    max-weight: 150px;
+}
 
 
 /* Potfolio Style */
